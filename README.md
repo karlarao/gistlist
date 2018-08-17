@@ -3,13 +3,17 @@ list file names of private and public gist
 
 # setup
 * install gist before running this script https://github.com/defunkt/gist 
-* setup your github API Token to avoid ”github API rate limit exceeded”  
-* change the <git_username>:<put_token_here> section of the script
-
-
 ```
 brew install gist
 ```
+* setup your github API Token to avoid ”github API rate limit exceeded”  
+* change the <git_username>:<put_token_here> section of the script
+* run it!
+```
+./gistlist.sh
+```
+
+
 
 
 ##### example output 
