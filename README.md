@@ -13,6 +13,15 @@ brew install gist
 ./gistlist.sh
 ```
 
+* this tool/script is best used with https://github.com/donnemartin/gitsome to get an overview of your git activity/history. with gitsome you can run queries like the following: 
+```
+-- list events 
+gh feed karlarao -p
+
+-- list repos created since date 
+gh search-repos "created:>=2017-01-01 user:karlarao"
+```
+
 
 
 
